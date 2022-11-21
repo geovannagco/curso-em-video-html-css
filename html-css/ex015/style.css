@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body {
+  background-color: rgb(235, 222, 247);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: azure;
+  background-color: rgb(209, 168, 247);
+}
+
+h2 {
+  color: gainsboro;
+  background-color: aliceblue;
+}
+
+p {
+  text-align: justify;
+  color: rgb(65, 65, 65);
+}
