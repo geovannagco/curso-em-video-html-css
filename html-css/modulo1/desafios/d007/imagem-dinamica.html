@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagem Flexível</title>
+
+    <link rel="shortcut icon" href="imagens/icon-neve.png" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Imagem Flexível</h1>
+    <p>
+      Esse é um desafio de imagem flexível. Aumente a tela para visualizar a
+      imagem completa.
+    </p>
+
+    <picture>
+      <source
+        media="(max-width: 250px)"
+        srcset="./imagens/jeremy250.jpg"
+        type="image/jpg"
+      />
+      <source
+        media="(max-width: 600px)"
+        srcset="./imagens/jeremy600.jpg"
+        type="image/jpg"
+      />
+      <img src="./imagens/jeremy1200.jpg" alt="Imagem Flexível" />
+    </picture>
+  </body>
+</html>
