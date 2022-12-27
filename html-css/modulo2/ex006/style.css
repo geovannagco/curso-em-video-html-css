@@ -1,0 +1,40 @@
+body {
+  background-color: #cdf0f7;
+  font-family: sans-serif;
+  color: #67b4c2;
+}
+
+h1 {
+  color: #3e6d75;
+}
+
+/* Em HTML é id e em CSS é # 
+  Em HTML é class e em CSS é .
+*/
+
+h1#principal {
+  text-align: center;
+  color: #67b4c2;
+  background-color: #ffffff;
+}
+
+h2 {
+  color: #3e6d75;
+}
+
+/*
+id = é para um único elemento
+class = para um grupo de elementos
+*/
+
+.basico {
+  color: rgb(147, 196, 147);
+}
+
+.intermediario {
+  color: rgb(211, 211, 119);
+}
+
+.avancado {
+  color: rgb(250, 144, 144);
+}
